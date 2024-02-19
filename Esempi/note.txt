@@ -1,0 +1,24 @@
+Gestione Stipendi Azienda.
+
+contratto: 
+		dati: stipendio base annuo, nome e tipo contratto
+	
+impiegato: 
+		dati: nome, cognome, anzianita, contratto, 
+		funzioni: calcolo stipendio (stipendio base + 0.5% per ogni anno di anzianità sullo stipendio base)
+
+azienda: 
+		dati: array di impiegati, ragione sociale. 
+		funzioni: calcolo somma stipendi, calcolo impiegato/i stipendio max.
+
+GestioneDati: 
+		funzioni: Load() //popola oggetto azienda con dati fittizi.
+
+Nel Main:
+		Azienda azienda = Load();
+		
+		int stipendi = azienda.SommaStipendi();
+		Console.WriteLine("Totale Stipendi {0}", stipendi);
+
+		//stampa cognome e nome impiegato/i con stipendio max
+		

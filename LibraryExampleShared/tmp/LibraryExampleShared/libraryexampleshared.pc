@@ -1,0 +1,6 @@
+Name: LibraryExampleShared
+Description: LibraryExampleShared
+Version: 0.1
+
+Requires: 
+Libs: -r:./LibraryExampleShared.dll
